@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.crypto.ui.fragments.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_calculatorFragment"
+            app:destination="@id/calculatorFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_servicesFragment"
+            app:destination="@id/servicesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_transferFragment"
+            app:destination="@id/transferFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.crypto.ui.fragments.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cryptoFragment"
+        android:name="com.example.crypto.ui.fragments.crypto.CryptoFragment"
+        android:label="fragment_crypto"
+        tools:layout="@layout/fragment_crypto" />
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="com.example.crypto.ui.fragments.cards.CardFragment"
+        android:label="fragment_card"
+        tools:layout="@layout/fragment_card" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.crypto.ui.fragments.edit_profile.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/calculatorFragment"
+        android:name="com.example.crypto.ui.fragments.currency_calculator.CalculatorFragment"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.crypto.ui.fragments.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/serviceElectricityFragment"
+        android:name="com.example.crypto.ui.fragments.service_electricity.ServiceElectricityFragment"
+        android:label="fragment_service_electricity"
+        tools:layout="@layout/fragment_service_electricity" />
+    <fragment
+        android:id="@+id/serviceWaterFragment"
+        android:name="com.example.crypto.ui.fragments.service_water.ServiceWaterFragment"
+        android:label="fragment_service_water"
+        tools:layout="@layout/fragment_service_water" />
+    <fragment
+        android:id="@+id/serviceInternetFragment"
+        android:name="com.example.crypto.ui.fragments.service_internet.ServiceInternetFragment"
+        android:label="fragment_service_internet"
+        tools:layout="@layout/fragment_service_internet" />
+    <fragment
+        android:id="@+id/servicesFragment"
+        android:name="com.example.crypto.ui.fragments.services.ServicesFragment"
+        android:label="fragment_services"
+        tools:layout="@layout/fragment_services" >
+        <action
+            android:id="@+id/action_servicesFragment_to_serviceWaterFragment"
+            app:destination="@id/serviceWaterFragment" />
+        <action
+            android:id="@+id/action_servicesFragment_to_serviceInternetFragment"
+            app:destination="@id/serviceInternetFragment" />
+        <action
+            android:id="@+id/action_servicesFragment_to_serviceElectricityFragment"
+            app:destination="@id/serviceElectricityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transferFragment"
+        android:name="com.example.crypto.ui.fragments.transfer.TransferFragment"
+        android:label="fragment_transfer"
+        tools:layout="@layout/fragment_transfer" />
+
+</navigation>

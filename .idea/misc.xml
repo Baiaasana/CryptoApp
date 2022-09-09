@@ -3,8 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/activity_auth.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_calculator.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_crypto.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_edit_profile.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_forgot_password.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_history.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_home.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_profile.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_register.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_reset_password.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_service_electricity.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_service_internet.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_service_water.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_services.xml" value="0.30625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_transfer.xml" value="0.30625" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/layout/fragment_welcome.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Crypto/app/src/main/res/menu/main_menu.xml" value="0.275" />
       </map>
     </option>
   </component>

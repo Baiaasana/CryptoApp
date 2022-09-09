@@ -3,11 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.welcome.WelcomeFragment">
+    tools:context=".ui.fragments.welcome.WelcomeFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Welcome" />
+        android:text="Welcome"
+        android:textSize="32sp"/>
 
 </FrameLayout>

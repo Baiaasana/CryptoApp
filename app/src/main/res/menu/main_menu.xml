@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_round_home_24"
+        tools:ignore="MenuTitle" />
+
+    <item android:id="@+id/cryptoFragment"
+        android:icon="@drawable/ic_baseline_currency_bitcoin_24"
+        tools:ignore="MenuTitle" />
+
+    <item android:id="@+id/cardFragment"
+        android:icon="@drawable/ic_round_credit_card_24"
+        tools:ignore="MenuTitle" />
+
+    <item android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        tools:ignore="MenuTitle" />
+
+</menu>
